@@ -14,7 +14,8 @@
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 2rem;
-    max-width: 1200px;
+    max-width: 1100px;
+    max-height: 200px;
     margin: 0 auto;
 }
 
@@ -52,7 +53,7 @@
     color: #000;
     padding: 1rem 0.5rem;
     align-items: center;
-    transition: 0.4s;
+    transition: 0.3s;
     font-weight: bold;
 }
 
