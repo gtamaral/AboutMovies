@@ -6,11 +6,11 @@
 
 > 🔎  O projeto de Consumo da API TMDB é um aplicativo desenvolvido para fornecer informações sobre filmes usando a API TMDB como fonte de dados. O aplicativo permite aos usuários explorar uma ampla variedade de filmes, visualizar detalhes de cada filme e realizar pesquisas personalizadas.
 
-🗔 Confira a aplicação: https://www.linkedin.com/in/raul-de-souza/ <br>
+
 
 ## 📄 Explicação
 
-O About Movies foi um projeto bastante interessante em desenvolver, devido ao interesse que venho tendo ultimamente por assistir filmes que nao se limitam apenas pela sua familiaridade e fugir um pouco dos generos que mais tenho interesse. Esse projeto de Consumo da API The Movie Database tem como objetivo criar um aplicativo que permita aos usuários explorar informações sobre filmes usando a API TMDB. A ideia é fornecer uma interface amigável onde os usuários possam navegar por diferentes filmes, visualizar detalhes de cada filme e realizar pesquisas personalizadas.
+O About Movies foi um projeto bastante interessante em desenvolver, devido ao interesse que venho tendo ultimamente por assistir filmes que nao se limitam apenas pela sua familiaridade e fugir um pouco dos generos que mais tenho interesse.O projeto é uma aplicação React que permite aos usuários explorar informações sobre filmes. Com uma interface intuitiva e componentes reutilizáveis, os usuários podem visualizar filmes mais bem avaliados, pesquisar filmes específicos e obter detalhes completos de cada filme. É um projeto interessante onde pude aprender e praticar conceitos como consumo de API, manipulação de estado, roteamento e criação de componentes reutilizáveis.
 
 ## 📁 Páginas
 
