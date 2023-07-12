@@ -21,5 +21,6 @@ const MovieCard = ({ movie, showLink = true, infoMovie = true }) => {
     );
     
 }
+// teste
 
 export default MovieCard;
