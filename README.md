@@ -22,12 +22,11 @@ O site tem no total 3 páginas, sendo elas:
 
 ## 🎯 Etapas
 
-✔️ Etapa 1\
-✔️ Etapa 2\
-✔️ Etapa 3\
-✔️ Etapa 4\
-✔️ Etapa 5\
-✔️ Etapa 6\
+✔️ criação do arquivo ".env" para armazenar as chaves da API.\
+✔️ Criação das rotas com base na quantidade necessária de páginas.\
+✔️ Desenvolvimento dos links da URL e da Navbar\
+✔️ Criação da página da HOME, da página Search e da Movie-Details.\
+✔️ estilização das páginas\
 ❌ Projeto Finalizado
 
 ## 🚀 Tecnologias
