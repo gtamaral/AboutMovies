@@ -74,9 +74,11 @@
       aspect-ratio: unset; /* Remover a proporção de aspecto */
       height: auto; /* Redefinir a altura para o valor padrão */
     }
-    @media (max-width: 480px) {
+    @media (max-width: 480px) and (orientation: portrait) {
         .movies-container div {
           width: 100%;
+          aspect-ratio: unset; /* Remover a proporção de aspecto */
+    /* Adicione quaisquer estilos adicionais para ajustar o layout na orientação vertical */
         }
   }
 }
