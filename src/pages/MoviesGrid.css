@@ -64,23 +64,11 @@
     color: #f7d354
 }
 
-@media (max-width: 828px) {
-    .movies-container {
-      padding: 1rem;
-    }
+
   
+@media (max-width: 480px) {
     .movies-container div {
       width: 100%;
-      aspect-ratio: unset; /* Remover a proporção de aspecto */
-      height: auto; /* Redefinir a altura para o valor padrão */
-    }
   }
-  
-@media (max-width: 480px) and (orientation: portrait) {
-    .movies-container div {
-      width: 100%;
-      aspect-ratio: unset; /* Remover a proporção de aspecto */
-      /* Adicione quaisquer estilos adicionais para ajustar o layout na orientação vertical */
-    }
-  }
+}
   
