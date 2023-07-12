@@ -4,13 +4,13 @@
   <img src="https://www.acheicampos.com.br/uploads/advertiser/default_anunciante_thumbnail.png" alt="Descrição da imagem">
 </div>
 
-> 🔎  O projeto de Consumo da API TMDB é um aplicativo desenvolvido para fornecer informações sobre filmes usando a API TMDB como fonte de dados. O aplicativo permite aos usuários explorar uma ampla variedade de filmes, visualizar detalhes de cada filme e realizar pesquisas personalizadas.
+> 🔎  O projeto de Consumo da API TMDB é um aplicaçao desenvolvida em React para fornecer informações sobre filmes usando a API TMDB como fonte de dados. O aplicativo permite aos usuários explorar uma ampla variedade de filmes, visualizar detalhes de cada filme e realizar pesquisas personalizadas.
 
 
 
 ## 📄 Explicação
 
-O About Movies foi um projeto bastante interessante em desenvolver, devido ao interesse que venho tendo ultimamente por assistir filmes que nao se limitam apenas pela sua familiaridade e fugir um pouco dos generos que mais tenho interesse.O projeto é uma aplicação React que permite aos usuários explorar informações sobre filmes. Com uma interface intuitiva e componentes reutilizáveis, os usuários podem visualizar filmes mais bem avaliados, pesquisar filmes específicos e obter detalhes completos de cada filme. É um projeto interessante onde pude aprender e praticar conceitos como consumo de API, manipulação de estado, roteamento e criação de componentes reutilizáveis.
+O About Movies foi um projeto bastante interessante em desenvolver, devido ao interesse que venho tendo ultimamente por assistir filmes que nao se limitam apenas pela sua familiaridade e fugir um pouco dos generos que mais tenho interesse. É um projeto interessante onde pude aprender e praticar conceitos como consumo de API, manipulação de estado, roteamento e criação de componentes reutilizáveis.
 
 ## 📁 Páginas
 
@@ -48,11 +48,11 @@ O site tem no total 3 páginas, sendo elas:
   
 ## 📔 Conhecimentos Utilizados
 
-✅ Integração com a API do TMDB ao usar o `fetch`
+✅ Integração com a API do TMDB.
 
-✅ Hooks: O código utiliza o hook useState para armazenar e atualizar o estado dos filmes mais bem avaliados.
+✅ Hooks: O código utiliza o hook useState para armazenar e atualizar o estado dos filmes.
 
-✅ Requisição assíncrona: O código utiliza a função fetch para fazer uma requisição assíncrona à API TMDB e obter os dados dos filmes mais bem avaliados.
+✅ Requisição assíncrona: O código utiliza a função fetch para fazer uma requisição assíncrona à API TMDB e obter os dados dos filmes.
 
 ✅ useEffect e Hooks: O código utiliza o hook useEffect para realizar a chamada à API TMDB e atualizar o estado dos filmes assim que o componente é montado.
 
@@ -70,11 +70,11 @@ Antes de iniciar, você precisa ter [Git](https://git-scm.com)
 
 ```bash
 # Clone this project
-$ git clone LINK DO SEU REPOSITÓRIO
+$ git clone (https://github.com/gtamaral/AboutMovies.git)
 # Access
-$ cd NOME DA SUA PASTA
+$ cd AboutMovies
 # Install dependencies
-$ yarn or npm
+$ yarn or npm install
 # Run the project
 $ yarn start or npm start
 # The server will initialize in the <http://localhost:3000>
