@@ -1,8 +1,6 @@
 <h1 align="center">🎥 About Movies 🎥</h1>
 
-<div align="center">
-  <img src="https://www.acheicampos.com.br/uploads/advertiser/default_anunciante_thumbnail.png" alt="Descrição da imagem">
-</div>
+  
 
 > 🔎  O projeto de Consumo da API TMDB é um aplicaçao desenvolvida em React para fornecer informações sobre filmes usando a API TMDB como fonte de dados.
 
