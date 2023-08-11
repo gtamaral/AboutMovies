@@ -1,5 +1,5 @@
 import { useState,useEffect } from "react";
-import { useParams, Link } from "react-router-dom";
+import { useParams, Link, useHistory } from "react-router-dom";
 
 //icons
 import {
@@ -14,7 +14,7 @@ import {
 import './Movie.css';
 import MovieCard from "../components/MovieCard";
 
-
+// api keys
 const moviesURL = import.meta.env.VITE_API;
 const apiKey = import.meta.env.VITE_API_KEY;
 
@@ -22,6 +22,7 @@ const Movie = () => {
 
     const {id} = useParams();   //obtendo id atraves do hook
     const [movie, setMovie] = useState(null);   //carregando o movie pelo api
+    const history = useHistory();   
 
     const getMovie = async (url) => {
         const res = await fetch(url);
@@ -43,6 +44,10 @@ const Movie = () => {
         const movieUrl = `${moviesURL}${id}?${apiKey}`;
         getMovie(movieUrl);
     }, [id]);
+
+    const handleGoBack = () => {
+        history.goBack();
+    };
 
     return (
         <div className="movie-page">
@@ -80,7 +85,7 @@ const Movie = () => {
                     </h3>
                     <p>{movie.overview}</p>
                 </div>
-                <Link to="/"><button className="btn">Voltar</button></Link>
+                <button className="btn" onClick={handleGoBack}>Voltar</button>
             </div>
             </> }
         </div>
