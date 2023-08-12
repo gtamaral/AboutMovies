@@ -1,6 +1,5 @@
 import { useState,useEffect } from "react";
-import { useParams, Link, useHistory } from "react-router-dom";
-
+import { useParams, useNavigate } from "react-router-dom";
 //icons
 import {
     BsGraphUp,
@@ -22,7 +21,8 @@ const Movie = () => {
 
     const {id} = useParams();   //obtendo id atraves do hook
     const [movie, setMovie] = useState(null);   //carregando o movie pelo api
-    const history = useHistory();   
+    const history = useNavigate();   
+    // console.log(history);
 
     const getMovie = async (url) => {
         const res = await fetch(url);
@@ -46,7 +46,8 @@ const Movie = () => {
     }, [id]);
 
     const handleGoBack = () => {
-        history.goBack();
+        history(-1);
+        
     };
 
     return (
@@ -91,5 +92,7 @@ const Movie = () => {
         </div>
     )
 };
+
+
 
 export default Movie;
