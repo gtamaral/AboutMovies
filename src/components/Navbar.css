@@ -1,8 +1,9 @@
 #navbar {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-between;
     align-items: center;
+    max-width: 100%;
     padding: 1rem 2rem;
     background-color: #121212;
 
@@ -42,3 +43,15 @@
     background-color: transparent;
     color: #f7d354;
 }
+
+@media (max-width: 480px) {
+    
+    #navbar {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+ 

@@ -154,3 +154,18 @@
 }
 
 
+@media (max-width: 480px) {
+    
+   .movie-page .movie-card img {
+    display: none;
+    
+
+   }
+   .details {
+    max-width: 100%;
+   }
+
+   .info h2 {
+        margin-top: 20px;
+   }
+}
