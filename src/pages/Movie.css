@@ -111,6 +111,7 @@
 
 }
 
+
 .movie-page svg {
     font-size: 1.5rem;
     color: #f7d354;
@@ -168,6 +169,6 @@
    }
 
    .info h2 {
-        margin-top: 20px;
+        margin-top: 70px;
    }
 }
