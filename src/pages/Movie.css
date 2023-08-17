@@ -92,6 +92,7 @@
     align-items: center;
     margin-left: 4rem;
     max-width: 50%;
+    
 
 }
 
@@ -157,12 +158,13 @@
 @media (max-width: 480px) {
     
    .movie-page .movie-card img {
-    display: none;
+        display: none;
     
 
    }
    .details {
-    max-width: 100%;
+        width: 100%;
+        margin-left: 0;
    }
 
    .info h2 {
