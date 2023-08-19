@@ -25,6 +25,7 @@ O site tem no total 3 páginas, sendo elas:
 ✔️ Desenvolvimento dos links da URL e da Navbar\
 ✔️ Criação da página da HOME, da página Search e da Movie-Details.\
 ✔️ estilização das páginas\
+✔️ Responsividade
 ❌ Projeto Finalizado
 
 ## 🚀 Tecnologias
